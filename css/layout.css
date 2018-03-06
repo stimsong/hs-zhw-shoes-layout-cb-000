@@ -29,13 +29,13 @@
 }
 
 .col-one-third {
-  padding-left: 10px;
-  float:left;
+/*  padding-left: 10px;
+  float:left; */
   width: 33%;
 }
 
 .col-two-thirds {
-  padding-right: 10px;
-  float: left;
+/*  padding-right: 10px;
+  float: left; */
   width: 66%;
 }
