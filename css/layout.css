@@ -39,3 +39,12 @@
   float: left; */
   width: 64%;
 }
+
+[class*="col-"] {
+  float: left;
+  margin-left: 2%;
+}
+
+[class*="col-"]:first-child {
+  margin-left: 0;
+}
