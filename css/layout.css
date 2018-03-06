@@ -35,6 +35,7 @@
 }
 
 .col-two-thirds {
+  padding-right: 10px;
   float: left;
   width: 66%;
 }
