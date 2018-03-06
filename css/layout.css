@@ -29,6 +29,7 @@
 }
 
 .col-one-third {
+  padding-left: 10px;
   float:left;
   width: 33%;
 }
