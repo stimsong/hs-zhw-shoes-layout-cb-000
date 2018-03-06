@@ -48,3 +48,17 @@
 [class*="col-"]:first-child {
   margin-left: 0;
 }
+
+.row {
+  clear: both;
+  margin-bottom: 2%;
+}
+
+.row:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
