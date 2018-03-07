@@ -24,4 +24,41 @@
 
 /* Posititoning Classes */
 
+.col-three-thirds {
+  width: 100%;
+}
 
+.col-one-third {
+/*  padding-left: 10px;
+  float:left; */
+  width: 32%;
+}
+
+.col-two-thirds {
+/*  padding-right: 10px;
+  float: left; */
+  width: 66%;
+}
+
+[class*="col-"] {
+  float: left;
+  margin-left: 2%;
+}
+
+[class*="col-"]:first-child {
+  margin-left: 0;
+}
+
+.row {
+  clear: both;
+  margin-bottom: 2%;
+}
+
+.row:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
